@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3 challenges</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <h2>Сторінка Вікіпедії для мови CSS</h2>
+    
+    <!-- Додавання iframe з посиланням на українську версію Wikipedia page for the CSS language -->
+    <iframe src="https://uk.wikipedia.org/wiki/CSS" title="Сторінка Вікіпедії для мови CSS" width="100%" height="600"></iframe>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Додайте тут елемент style -->
+    <style>
+        /* В середині style визначте селектор p з властивістю color: red; */
+        p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- Додайте тут елемент p з текстом This is my paragraph. -->
+    <!-- Визначте атрибут style для тега p зі значенням color: blue; -->
+    <p style="color: blue;">This is my paragraph.</p>
+
+    <!-- Який колір буде мати текст This is my paragraph і чому? -->
+    <!-- Текст буде має колір синій (blue), оскільки стиль атрибуту має вищий пріоритет перед стилем внутрішнього style. -->
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exciting Paragraphs</title>
+    <style>
+        /* Змінив ідентифікатори для забезпечення унікальності */
+        #exciting1 {
+            background: #f69d3c;
+            border: 1px solid #696969;
+            padding: 10px;
+        }
+
+        #exciting2 {
+            background: #f69d3c;
+            border: 1px solid #696969;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <p>Звичайний, нудний абзац. Намагайтеся не заснути.</p>
+    
+    <!-- Змінив ідентифікатор на унікальний -->
+    <p id="exciting1">The most exciting paragraph on the page. One of a kind!</p>
+
+    <!-- Змінив ідентифікатор на унікальний -->
+    <div id="exciting2">The most exciting paragraph on the page. One of a kind!</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3 challenges</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+    <!-- Додайте тут елемент style: -->
+    <style type="text/css">
+        body {
+            background: var(--bgColor);
+        }
+
+        div {
+            --bgColor: limegreen;
+        }
+
+        /*
+        Визначте для елементів p властивість фону таким чином:
+        background: var(--bgColor);
+        */
+        div p {
+            background: var(--bgColor);
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- ... -->
+
+    <!-- Додайте тут 2 елементи div: -->
+    <div>
+        <h3>Div 1</h3>
+        <p>Paragraph 1</p>
+    </div>
+
+    <div>
+        <h3>Div 2</h3>
+        <p>Paragraph 2</p>
+    </div>
+
+</body>
+</html>
+
+
