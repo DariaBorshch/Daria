@@ -1,0 +1,72 @@
+/* CSS for main.css */
+
+/* Define text color as gray for all h1, h2, h3 elements on the webpage */
+h1, h2, h3 {
+    color: gray;
+  }
+  
+  /* Select the element with the id "main" and define its text color as #e60202 */
+  #main {
+    color: #e60202;
+  }
+  
+  /* Select elements with the class "h2" and define their text color as red */
+  .h2 {
+    color: red;
+  }
+  
+  /* Highlight all elements with the class "heading" and set their text color to green */
+  .heading {
+    color: green;
+  }
+  
+  /* Select direct child elements of ul and set font-weight to bold */
+  ul > li {
+      font-weight: bold;
+  }
+  
+  /* Styling for paragraphs inside section */
+  section > p {
+      font-size: 1.2em; /* Increase font size for paragraphs inside section */
+  }
+  
+  /* Style the first h2 element */
+  h2:first-of-type {
+      color: indigo; /* Change text color of the first h2 element */
+  }
+  
+  /* Apply green color to all links inside p.first */
+  p.first a {
+      color: green;
+  }
+  
+  /* Style links inside any tag with class .first that are descendants of p */
+  p .first a {
+      color: green;
+  }
+  
+  /* Style paragraphs after div */
+  div + p {
+      color: salmon;
+  }
+  
+  /* Styling for the translucent-box */
+  .translucent-box {
+      background: hsla(0, 100%, 50%, 0.5); /* Hue = 0deg, Saturate = 100%, Lightness = 50%, Alpha = 0.5 */
+  }
+  
+  /* Define base font size for the root element */
+  html {
+      font-size: 100%;
+  }
+  
+  /* Define font size for body, inheriting 140% of the base font size */
+  body {
+      font-size: 140%;
+  }
+  
+  /* Define font size for h1, inheriting 240% of the base font size */
+  h1 {
+      font-size: 240%;
+  }
+  
